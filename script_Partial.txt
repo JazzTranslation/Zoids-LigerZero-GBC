@@ -729,8 +729,9 @@ WHOA!!<END>
 
 #WRITE(MyPtr, $14515C)
 <HERONAME>:<LINE>
-Damn it!!<LINE>
-That's it!<END>
+That's it, I<LINE>
+need to check<LINE>
+it out.<END>
 
 //POINTER #88 @ $145160 - STRING #88 @ $1309F7
 
@@ -779,8 +780,8 @@ Ah, Solid!?<END>
 
 #WRITE(MyPtr, $145178)
 PALTY:<LINE>
-Are you leaving,<LINE>
-Solid!?<END>
+Solid, are you<LINE>
+leaving!?<END>
 
 //POINTER #95 @ $14517C - STRING #95 @ $130A77
 
@@ -788,10 +789,8 @@ Solid!?<END>
 SOLID:<LINE>
 ……Of course,<LINE>
 I'm returning<LINE>
-to the Empire's<LINE>
-army.<LINE>
-I'm a soldier<LINE>
-of the Empire.<END>
+back to the<LINE>
+Empire's army.<END>
 
 //POINTER #96 @ $145180 - STRING #96 @ $130A9F
 
@@ -803,10 +802,13 @@ Solid……<END>
 
 #WRITE(MyPtr, $145184)
 SOLID:<LINE>
-//きょうのところは<LINE>
-//ここでわかれる<LINE>
-//だが ぼくは ライガーゼロを<LINE>
-//あきらめないぞ<END>
+From here on,<LINE>
+this is where<LINE>
+we part ways.<LINE>
+But I won't<LINE>
+give up on<LINE>
+capturing<LINE>
+Liger Zero!<END>
 
 //POINTER #98 @ $145188 - STRING #98 @ $130AD7
 
@@ -818,142 +820,164 @@ Eh?<END>
 
 #WRITE(MyPtr, $14518C)
 SOLID:<LINE>
-//つぎこそ ライガーゼロを<LINE>
-//うばってみせる<LINE>
-//こんど あうときは<LINE>
-//ふたたび てきどうしだぞ<LINE>
-//<HERONAME>！<END>
+Next time,<LINE>
+I’ll take<LINE>
+Liger Zero<LINE>
+for sure.<LINE>
+The next time<LINE>
+we meet,<LINE>
+we’ll be<LINE>
+enemies again,<LINE>
+<HERONAME>!<END>
 
 //POINTER #100 @ $145190 - STRING #100 @ $130B13
 
 #WRITE(MyPtr, $145190)
 <HERONAME>:<LINE>
-//…………………………<END>
+…………………………<END>
 
 //POINTER #101 @ $145194 - STRING #101 @ $130B21
 
 #WRITE(MyPtr, $145194)
 SOLID:<LINE>
-//…………………………<END>
+…………………………<END>
 
 //POINTER #102 @ $145198 - STRING #102 @ $130B32
 
 #WRITE(MyPtr, $145198)
 PALTY:<LINE>
-//……いっちゃったね<LINE>
-//ソリッド<END>
+…Solid's gone.<END>
 
 //POINTER #103 @ $14519C - STRING #103 @ $130B47
 
 #WRITE(MyPtr, $14519C)
 <HERONAME>:<LINE>
-//うん……<END>
+Yeah……<END>
 
 //POINTER #104 @ $1451A0 - STRING #104 @ $130B4F
 
 #WRITE(MyPtr, $1451A0)
 PALTY:<LINE>
-//さびしいの <HERONAME>？<END>
+Are you sad,<LINE>
+<HERONAME>?<END>
 
 //POINTER #105 @ $1451A4 - STRING #105 @ $130B5E
 
 #WRITE(MyPtr, $1451A4)
 <HERONAME>:<LINE>
-//な なにいってんだよ！！<LINE>
-//そんなわけ ないだろ<LINE>
-//ソリッドなんて かっこつけの<LINE>
-//いしあたまおとこ じゃないか<END>
+Wh-what!? Hah!<LINE>
+No way!<NP>
+Solid's just a<LINE>
+stubborn<LINE>
+show-off!<END>
 
 //POINTER #106 @ $1451A8 - STRING #106 @ $130B97
 
 #WRITE(MyPtr, $1451A8)
 PALTY:<LINE>
-//ふーん？<END>
+Huh?<END>
 
 //POINTER #107 @ $1451AC - STRING #107 @ $130BA2
 
 #WRITE(MyPtr, $1451AC)
 PALTY:<LINE>
-//まあ <HERONAME>には<LINE>
-//パルティがいるもんね<END>
+Well, <HERONAME>,<LINE>
+you still<LINE>
+have Palty,<LINE>
+right?<END>
 
 //POINTER #108 @ $1451B0 - STRING #108 @ $130BBA
 
 #WRITE(MyPtr, $1451B0)
 <HERONAME>:<LINE>
-//…………え？<END>
+……What?<END>
 
 //POINTER #109 @ $1451B4 - STRING #109 @ $130BC4
 
 #WRITE(MyPtr, $1451B4)
 PALTY:<LINE>
-//パルティ ちじょうって<LINE>
-//はじめてなの<LINE>
-//これから たのしくなりそう<LINE>
-//だね<END>
+This is Palty’s<LINE>
+first time<LINE>
+on the<LINE>
+surface.<LINE>
+It looks like<LINE>
+things are<LINE>
+going to get<LINE>
+exciting!<END>
 
 //POINTER #110 @ $1451B8 - STRING #110 @ $130BEE
 
 #WRITE(MyPtr, $1451B8)
 <HERONAME>:<LINE>
-//ま まてまて<LINE>
-//ちょっとまて<LINE>
-//ちていに かえらないのか？<END>
+W-wait,<LINE>
+hold on!<LINE>
+Aren’t you<LINE>
+going back<LINE>
+underground?<END>
 
 //POINTER #111 @ $1451BC - STRING #111 @ $130C0D
 
 #WRITE(MyPtr, $1451BC)
 PALTY:<LINE>
-//かえらないよぉ<NP>
-//おじいちゃんだって<LINE>
-//ついてってやれって<LINE>
-//いってたじゃない<END>
+I’m not going<LINE>
+back!<NP>
+Grandpa said<LINE>
+I should<LINE>
+go with you,<LINE>
+remember?<END>
 
 //POINTER #112 @ $1451C0 - STRING #112 @ $130C38
 
 #WRITE(MyPtr, $1451C0)
 <HERONAME>:<LINE>
-//あれは おくってくれるって<LINE>
-//いみじゃ……<END>
+Didn't he mean<LINE>
+he’d just see<LINE>
+you off…?"
 
 //POINTER #113 @ $1451C4 - STRING #113 @ $130C50
 
 #WRITE(MyPtr, $1451C4)
 PALTY:<LINE>
-//え？<END>
+Huh?<END>
 
 //POINTER #114 @ $1451C8 - STRING #114 @ $130C59
 
 #WRITE(MyPtr, $1451C8)
 <HERONAME>:<LINE>
-//……い いや<LINE>
-//なんでもないよ<LINE>
-//なんか いっても<LINE>
-//むだって きがする<END>
+……N-never mind.<LINE>
+I feel like<LINE>
+it would be<LINE>
+useless to<LINE>
+argue……<END>
 
 //POINTER #115 @ $1451CC - STRING #115 @ $130C7E
 
 #WRITE(MyPtr, $1451CC)
 PALTY:<LINE>
-//そうだ<NP>
-//ゆうべ いいかけたこと<LINE>
-//いっておくね<NP>
-//パルティね <HERONAME>のこと<LINE>
-//だいすきなの<HEART><NP>
-//だから ついてくからね<HEART><END>
+Oh, right!<NP>
+There’s some-<LINE>
+thing I almost<LINE>
+told you last<LINE>
+night.<NP>
+Palty really<LINE>
+loves <HERONAME>!<HEART><NP>
+That’s why I’m<LINE>
+coming with<LINE>
+you!<HEART><END>
 
 //POINTER #116 @ $1451D0 - STRING #116 @ $130CBB
 
 #WRITE(MyPtr, $1451D0)
 <HERONAME>:<LINE>
-//ええっ？<LINE>
-//そ そういうこと！？<END>
+Wh-what!?<LINE>
+S-so that’s what<LINE>
+you meant!?<END>
 
 //POINTER #117 @ $1451D4 - STRING #117 @ $130CCE
 
 #WRITE(MyPtr, $1451D4)
 PALTY:<LINE>
-//そうよ<END>
+Yup.<END>
 
 //POINTER #118 @ $1451D8 - STRING #118 @ $130CD8
 
@@ -1775,7 +1799,7 @@ you hear me?<END>
 
 #WRITE(MyPtr, $145364)
 GIRL:<LINE>
-//……じゅうきしん……<END>
+//……Mythical……<END>
 
 //POINTER #218 @ $145368 - STRING #218 @ $131A7B
 
@@ -1787,171 +1811,188 @@ Huh?<END>
 
 #WRITE(MyPtr, $14536C)
 GIRL:<LINE>
-//しろがねのじゅうきしん……<NP>
-//けものの すがたの<LINE>
-//きゅうせいしゅ……<END>
+The Mythical<LINE>
+Silver Beast…<NP>
+A savior in<LINE>
+the form<LINE>
+of a beast…<END>
 
 //POINTER #220 @ $145370 - STRING #220 @ $131AAC
 
 #WRITE(MyPtr, $145370)
 <HERONAME>:<LINE>
-//なあ おい<LINE>
-//なにをいってるんだ？<END>
+Hey, uh…what<LINE>
+are you talking<LINE>
+about?<END>
 
 //POINTER #221 @ $145374 - STRING #221 @ $131AC0
 
 #WRITE(MyPtr, $145374)
 GIRL:<LINE>
-//あなたは だあれ？<END>
+Who are you?<END>
 
 //POINTER #222 @ $145378 - STRING #222 @ $131AD1
 
 #WRITE(MyPtr, $145378)
 <HERONAME>:<LINE>
-//えっ？<NP>
-//あ お おれは<LINE>
-//<HERONAME> っていうんだ<END>
+Huh?<NP>
+Oh, uh, my<LINE>
+name's <HERONAME>.<END>
 
 //POINTER #223 @ $14537C - STRING #223 @ $131AE9
 
 #WRITE(MyPtr, $14537C)
 GIRL:<LINE>
-//<HERONAME>…………<NP>
-//どうして<LINE>
-//しろがねのじゅうきしんと<LINE>
-//いっしょにいるの？<END>
+<HERONAME>…………<NP>
+Why are you<LINE>
+with the<LINE>
+Mythical Silver<LINE>
+Beast?<END>
 
 //POINTER #224 @ $145380 - STRING #224 @ $131B12
 
 #WRITE(MyPtr, $145380)
 <HERONAME>:<LINE>
-//しろがねのじゅうきしんって<LINE>
-//こいつのことかい？<LINE>
-//こいつは ライガーゼロって<LINE>
-//いうんだけど<END>
+The Mythical<LINE>
+Silver Beast-<LINE>
+you mean…Liger<LINE>
+Zero.<END>
 
 //POINTER #225 @ $145384 - STRING #225 @ $131B42
 
 #WRITE(MyPtr, $145384)
 GIRL:<LINE>
-//ううん じゅうきしんよ<LINE>
-//まちがいないわ<END>
+No, it’s<LINE>
+definitely<LINE>
+the Mythical<LINE>
+Beast.<END>
 
 //POINTER #226 @ $145388 - STRING #226 @ $131B5D
 
 #WRITE(MyPtr, $145388)
 <HERONAME>:<LINE>
-//……へ へんな おんなのこ<LINE>
-//だなあ<END>
+…What a<LINE>
+strange girl.<END>
 
 //POINTER #227 @ $14538C - STRING #227 @ $131B72
 
 #WRITE(MyPtr, $14538C)
 GIRL:<LINE>
-//……………………………<END>
+……………………………<END>
 
 //POINTER #228 @ $145390 - STRING #228 @ $131B85
 
 #WRITE(MyPtr, $145390)
 <HERONAME>:<LINE>
-//こんどは<LINE>
-//だまりこんじゃったよ……<END>
+Now she’s<LINE>
+gone completely<LINE>
+silent…<END>
 
 //POINTER #229 @ $145394 - STRING #229 @ $131B9A
 
 #WRITE(MyPtr, $145394)
 GIRL:<LINE>
-//……ねえ <HERONAME><END>
+//……Hey, <HERONAME>.<END>
 
 //POINTER #230 @ $145398 - STRING #230 @ $131BA8
 
 #WRITE(MyPtr, $145398)
 <HERONAME>:<LINE>
-//えっ なんだい？<END>
+Yeah?<LINE>
+What is it?<END>
 
 //POINTER #231 @ $14539C - STRING #231 @ $131BB4
 
 #WRITE(MyPtr, $14539C)
 GIRL:<LINE>
-//パルティの おじいちゃんの<LINE>
-//ところに いっしょにきて<END>
+Come with me<LINE>
+to Grandpa<LINE>
+Palty’s place.<END>
 
 //POINTER #232 @ $1453A0 - STRING #232 @ $131BD6
 
 #WRITE(MyPtr, $1453A0)
 <HERONAME>:<LINE>
-//パ パルティって<LINE>
-//きみのなまえか？<LINE>
-//それに おじいちゃんって……<END>
+Are you both<LINE>
+called Palty?<END>
 
 //POINTER #233 @ $1453A4 - STRING #233 @ $131BFA
 
 #WRITE(MyPtr, $1453A4)
 PALTY:<LINE>
-//パルティたち このさきの<LINE>
-//むらにすんでいるの<LINE>
-//ちょっと あるけば<LINE>
-//すぐだから<END>
+I live with<LINE>
+Grandpa Palty<LINE>
+in a village<LINE>
+just up ahead.<LINE>
+It’s not far.<END>
 
 //POINTER #234 @ $1453A8 - STRING #234 @ $131C27
 
 #WRITE(MyPtr, $1453A8)
 <HERONAME>:<LINE>
-//むら だって？<NP>
-//こんな ちていに<LINE>
-//むらがあるのか？<END>
+A village?<NP>
+There’s a<LINE>
+village down<LINE>
+here underground?<END>
 
 //POINTER #235 @ $1453AC - STRING #235 @ $131C44
 
 #WRITE(MyPtr, $1453AC)
 PALTY:<LINE>
-//あるよ<LINE>
-//あたりまえじゃない<END>
+Yup.<NP>
+Isn’t it<LINE>
+obvious?<END>
 
 //POINTER #236 @ $1453B0 - STRING #236 @ $131C58
 
 #WRITE(MyPtr, $1453B0)
 <HERONAME>:<LINE>
-//へえ……<NP>
-//だったら ちじょうへでる<LINE>
-//ほうほうを おしえて<LINE>
-//もらえるかもしれないな<END>
+Wow…<NP>
+Maybe they canMLINE>
+tell me how<LINE>
+to get back<LINE>
+up to the<LINE>
+surface.<END>
 
 //POINTER #237 @ $1453B4 - STRING #237 @ $131C84
 
 #WRITE(MyPtr, $1453B4)
 <HERONAME>:<LINE>
-//いいよ いこうぜ！<END>
+Sure, let’s go!<END>
 
 //POINTER #238 @ $1453B8 - STRING #238 @ $131C91
 
 #WRITE(MyPtr, $1453B8)
 PALTY:<LINE>
-//ありがとう<NP>
-//じゃあ いきましょ<LINE>
-//にしのほうがくよ<END>
+Thank you!<NP>
+Let’s go.<LINE>
+It’s to the<LINE>
+west.<END>
 
 //POINTER #239 @ $1453BC - STRING #239 @ $131CB0
 
 #WRITE(MyPtr, $1453BC)
 PALTY:<LINE>
-//きゃあっ<END>
+Eek!<END>
 
 //POINTER #240 @ $1453C0 - STRING #240 @ $131CBB
 
 #WRITE(MyPtr, $1453C0)
 <HERONAME>:<LINE>
-//あいつは<LINE>
-//バーサークフューラー！<LINE>
-//こんなところまできたのか！<LINE>
-//ライガーゼロで<LINE>
-//おもいしらせてやる！！<END>
+It’s Berserk<LINE>
+Fuhrer!<NP>
+It came all<LINE>
+this way!<LINE>
+Time to let<LINE>
+Liger Zero<LINE>
+teach it a<LINE>
+lesson or two!<END>
 
 //POINTER #241 @ $1453C4 - STRING #241 @ $131CF1
 
 #WRITE(MyPtr, $1453C4)
 <HERONAME>:<LINE>
-//やったか！？<END>
+Did that work!?<END>
 
 //POINTER #242 @ $1453C8 - STRING #242 @ $131CFB
 
