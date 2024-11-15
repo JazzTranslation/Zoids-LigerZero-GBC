@@ -20,7 +20,7 @@ aaaaa<END>
 //POINTER #1 @ $145004 - STRING #1 @ $13000C
 
 #WRITE(MyPtr, $145004)
-iizii<LINE>
+iiii<LINE>
    aaaaa<END>
 
 //POINTER #2 @ $145008 - STRING #2 @ $13001A
@@ -38,7 +38,8 @@ Ugh…<END>
 
 #WRITE(MyPtr, $145010)
 IMPERIAL SOLDIER:<LINE>
-Booya! A direct hit!<END>
+Booyah!<LINE>
+A direct hit!<END>
 
 //POINTER #5 @ $145014 - STRING #5 @ $13003D
 
@@ -67,7 +68,7 @@ that strike?<END>
 
 #WRITE(MyPtr, $145020)
 IMPERIAL SOLDIER:<LINE>
-N-no, um…<END>
+N-no, I, um…<END>
 
 //POINTER #9 @ $145024 - STRING #9 @ $1300AE
 
@@ -144,33 +145,35 @@ Ahh!<END>
 BLUE JEM:<LINE>
 This is bad!<NP>
 It's severly<LINE>
-injured.<END>
+damaged.<END>
 
 //POINTER #18 @ $145048 - STRING #18 @ $1301E3
 
 #WRITE(MyPtr, $145048)
 BLUE JEM:<LINE>
 This one too…<NP>
-It's hopeless.<LINE>
+Oh no.<LINE>
 There's no<LINE>
 response.<NP>
-Who could be<LINE>
-this cruel……<END>
+Who would do<LINE>
+such a thing……<END>
 
 //POINTER #19 @ $14504C - STRING #19 @ $130211
 
 #WRITE(MyPtr, $14504C)
 BLUE JEM:<LINE>
 Hopefully, I<LINE>
-can save it.<END>
+can save this<LINE>
+one before it<LINE>
+too late.<END>
 
 //POINTER #20 @ $145050 - STRING #20 @ $130231
 
 #WRITE(MyPtr, $145050)
 IMPERIAL SOLDIER:<LINE>
 A silver Liger-how<LINE>
-rare indeed!<LINE>
-If we capture this,<LINE>
+extraordinary!<LINE>
+If we capture it,<LINE>
 we might be allowed<LINE>
 to return to the<LINE>
 Empire!<END>
@@ -992,7 +995,7 @@ Yup.<END>
 
 #WRITE(MyPtr, $1451DC)
 PALTY:<LINE>
-//うん！<END>
+Huh?<END>
 
 //POINTER #120 @ $1451E0 - STRING #120 @ $130D12
 
@@ -2837,19 +2840,23 @@ D-damn it!<END>
 
 #WRITE(MyPtr, $14556C)
 PALTY:<LINE>
-//それにしても<NP>
-//ライガーゼロって<LINE>
-//じゅうきしんじゃないのかな？<NP>
-//バーサークフューラーに<LINE>
-//かてないなんて<END>
+Wait… Liger<LINE>
+Zero, lost?<NP>
+Maybe it isn't<LINE>
+the Mythical<LINE>
+Silver Beast<LINE>
+after all…<END>
 
 //POINTER #348 @ $145570 - STRING #348 @ $132AFD
 
 #WRITE(MyPtr, $145570)
 <HERONAME>:<LINE>
-//なんだよ そっちがかってに<LINE>
-//まちがえたんだろ！<LINE>
-//もんく あるのかよ<END>
+Hey, don't<LINE>
+look at me!<NP>
+You’re the<LINE>
+one who was<LINE>
+claiming<LINE>
+it was.<END>
 
 //POINTER #349 @ $145574 - STRING #349 @ $132B22
 
@@ -2862,130 +2869,162 @@ not mistaken.<END>
 
 #WRITE(MyPtr, $145578)
 <HERONAME>:<LINE>
-Eh?<END>
+What do you<LINE>
+mean?<END>
 
 //POINTER #351 @ $14557C - STRING #351 @ $132B3D
 
 #WRITE(MyPtr, $14557C)
 OLD MAN:<LINE>
-//あらためて なのろう<NP>
-//わしは このちをおさめる<LINE>
-//けんじゃ<NP>
-//このむらの おさでもある<NP>
-//ふるきでんせつを つたえ<LINE>
-//でんとうをまもるために<LINE>
-//いきておる<END>
+Allow me to<LINE>
+reintroduce<LINE>
+myself.<NP>
+I am the<LINE>
+village's<LINE>
+Elder.<NP>
+My purpose is<LINE>
+to preserve<LINE>
+the ancient<LINE>
+legends and<LINE>
+safeguard our<LINE>
+traditions.<END>
 
 //POINTER #352 @ $145580 - STRING #352 @ $132B8C
 
 #WRITE(MyPtr, $145580)
 <HERONAME>:<LINE>
-//けんじゃ……<LINE>
-//ものしりって ことか<END>
+An Elder……<NP>
+You mean<LINE>
+someone who<LINE>
+knows a lot?<END>
 
 //POINTER #353 @ $145584 - STRING #353 @ $132BA1
 
 #WRITE(MyPtr, $145584)
-//むらおさ:<LINE>
-//そうじゃ<NP>
-//そして でんせつによれば<LINE>
-//おまえのライガーゼロは<LINE>
-//しろがねのじゅうきしんじゃ<LINE>
-//まちがいないわい<END>
+ELDER:<LINE>
+That's right.<NP>
+And according<LINE>
+to legend,<LINE>
+that Liger is<LINE>
+undoubtably<LINE>
+the Mythical<LINE>
+Silver Beast.<END>
 
 //POINTER #354 @ $145588 - STRING #354 @ $132BDC
 
 #WRITE(MyPtr, $145588)
 PALTY:<LINE>
-//ええっ なんでなの？<NP>
-//バーサークフューラーに<LINE>
-//かてなかったのよ<LINE>
-//あのライガー！<END>
+What!? How?<NP>
+It couldn’t<LINE>
+even defeat<LINE>
+the Berserk<LINE>
+Fuhrer!<END>
 
 //POINTER #355 @ $14558C - STRING #355 @ $132C0A
 
 #WRITE(MyPtr, $14558C)
-//むらおさ:<LINE>
-//いいや このからだ<NP>
-//こうごうしいかがやき<NP>
-//これこそ じゅうきしんじゃよ<END>
+ELDER:<LINE>
+No, it’s<LINE>
+clear.<NP>
+This radiant<LINE>
+and divine<LINE>
+brilliance,<NP>
+this is what<LINE>
+makes it the<LINE>
+Mythical Beast!<END>
 
 //POINTER #356 @ $145590 - STRING #356 @ $132C34
 
 #WRITE(MyPtr, $145590)
 PALTY:<LINE>
-//ええーっ！？<END>
+Whaaat!?<END>
 
 //POINTER #357 @ $145594 - STRING #357 @ $132C41
 
 #WRITE(MyPtr, $145594)
-//むらおさ:<LINE>
-//じゅうきしんの ともである<LINE>
-//しょうねんよ<LINE>
-//いままでのぶれい<LINE>
-//おわびしよう<END>
+ELDER:<LINE>
+Young one,<LINE>
+Mythical Beast<LINE>
+companion,<LINE>
+I apologize<LINE>
+for being<LINE>
+rude earlier.<END>
 
 //POINTER #358 @ $145598 - STRING #358 @ $132C6C
 
 #WRITE(MyPtr, $145598)
 <HERONAME>:<LINE>
-//えっ い いいよ<LINE>
-//そんなこと<LINE>
-//おわびなんて……<END>
+Huh? N-no,<LINE>
+it’s fine.<NP>
+There’s no<LINE>
+need to<LINE>
+apologize…<END>
 
 //POINTER #359 @ $14559C - STRING #359 @ $132C87
 
 #WRITE(MyPtr, $14559C)
-//むらおさ:<LINE>
-//ごめんよーん！<END>
+ELDER:<LINE>
+I’m sowwyyyy!<END>
 
 //POINTER #360 @ $1455A0 - STRING #360 @ $132C95
 
 #WRITE(MyPtr, $1455A0)
 <HERONAME>:<LINE>
-//！？<END>
+!?<END>
 
 //POINTER #361 @ $1455A4 - STRING #361 @ $132C9B
 
 #WRITE(MyPtr, $1455A4)
 //むらおさ:<LINE>
-//さて おわびも おわったのう<LINE>
-//ほんだいに はいるとするか<END>
+Well, now that<LINE>
+the apology<LINE>
+is done, let’s<LINE>
+focus on the<LINE>
+main topic.<END>
 
 //POINTER #362 @ $1455A8 - STRING #362 @ $132CBE
 
 #WRITE(MyPtr, $1455A8)
 <HERONAME>:<LINE>
-//な なんだよ いまの？<LINE>
-//あれで あやまったのか？<END>
+Wait, was that<LINE>
+supposed to be<LINE>
+an apology?<END>
 
 //POINTER #363 @ $1455AC - STRING #363 @ $132CDA
 
 #WRITE(MyPtr, $1455AC)
-//むらおさ:<LINE>
-//くうきが おもくならんよう<LINE>
-//きをつかったのじゃ<LINE>
-//あかるく あやまったほうが<LINE>
-//ばがなごむじゃろう<END>
+ELDER:<LINE>
+I wanted to<LINE>
+keep the mood<LINE>
+light, so I<LINE>
+apologized in<LINE>
+a cheerful<LINE>
+way.<LINE>
+It softens<LINE>
+the atmosphere,<LINE>
+doesn’t it?<END>
 
 //POINTER #364 @ $1455B0 - STRING #364 @ $132D10
 
 #WRITE(MyPtr, $1455B0)
 <HERONAME>:<LINE>
-//そ そうかなあ<END>
+R-really?<LINE>
+I guess so.<END>
 
 //POINTER #365 @ $1455B4 - STRING #365 @ $132D1B
 
 #WRITE(MyPtr, $1455B4)
-//むらおさ:<LINE>
-//それより あらためて<LINE>
-//たのみがあるのじゃ<END>
+ELDER:<LINE>
+More impor-<LINE>
+tantly, I<LINE>
+have a request<LINE>
+to ask.<END>
 
 //POINTER #366 @ $1455B8 - STRING #366 @ $132D36
 
 #WRITE(MyPtr, $1455B8)
 <HERONAME>:<LINE>
-//た たのみ？<END>
+WHat is it?<END>
 
 //POINTER #367 @ $1455BC - STRING #367 @ $132D40
 
