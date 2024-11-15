@@ -20,7 +20,7 @@ aaaaa<END>
 //POINTER #1 @ $145004 - STRING #1 @ $13000C
 
 #WRITE(MyPtr, $145004)
-iiii<LINE>
+iizii<LINE>
    aaaaa<END>
 
 //POINTER #2 @ $145008 - STRING #2 @ $13001A
@@ -821,12 +821,12 @@ Eh?<END>
 #WRITE(MyPtr, $14518C)
 SOLID:<LINE>
 Next time,<LINE>
-I’ll take<LINE>
+I'll take<LINE>
 Liger Zero<LINE>
 for sure.<LINE>
 The next time<LINE>
 we meet,<LINE>
-we’ll be<LINE>
+we'll be<LINE>
 enemies again,<LINE>
 <HERONAME>!<END>
 
@@ -896,7 +896,7 @@ right?<END>
 
 #WRITE(MyPtr, $1451B4)
 PALTY:<LINE>
-This is Palty’s<LINE>
+This is Palty's<LINE>
 first time<LINE>
 on the<LINE>
 surface.<LINE>
@@ -911,7 +911,7 @@ exciting!<END>
 <HERONAME>:<LINE>
 W-wait,<LINE>
 hold on!<LINE>
-Aren’t you<LINE>
+Aren't you<LINE>
 going back<LINE>
 underground?<END>
 
@@ -919,7 +919,7 @@ underground?<END>
 
 #WRITE(MyPtr, $1451BC)
 PALTY:<LINE>
-I’m not going<LINE>
+I'm not going<LINE>
 back!<NP>
 Grandpa said<LINE>
 I should<LINE>
@@ -931,7 +931,7 @@ remember?<END>
 #WRITE(MyPtr, $1451C0)
 <HERONAME>:<LINE>
 Didn't he mean<LINE>
-he’d just see<LINE>
+he'd just see<LINE>
 you off…?"
 
 //POINTER #113 @ $1451C4 - STRING #113 @ $130C50
@@ -955,13 +955,13 @@ argue……<END>
 #WRITE(MyPtr, $1451CC)
 PALTY:<LINE>
 Oh, right!<NP>
-There’s some-<LINE>
+There's some-<LINE>
 thing I almost<LINE>
 told you last<LINE>
 night.<NP>
 Palty really<LINE>
 loves <HERONAME>!<HEART><NP>
-That’s why I’m<LINE>
+That's why I'm<LINE>
 coming with<LINE>
 you!<HEART><END>
 
@@ -970,7 +970,7 @@ you!<HEART><END>
 #WRITE(MyPtr, $1451D0)
 <HERONAME>:<LINE>
 Wh-what!?<LINE>
-S-so that’s what<LINE>
+S-so that's what<LINE>
 you meant!?<END>
 
 //POINTER #117 @ $1451D4 - STRING #117 @ $130CCE
@@ -1799,7 +1799,7 @@ you hear me?<END>
 
 #WRITE(MyPtr, $145364)
 GIRL:<LINE>
-//……Mythical……<END>
+……Mythical……<END>
 
 //POINTER #218 @ $145368 - STRING #218 @ $131A7B
 
@@ -1822,7 +1822,8 @@ of a beast…<END>
 #WRITE(MyPtr, $145370)
 <HERONAME>:<LINE>
 Hey, uh…what<LINE>
-are you talking<LINE>
+are you<LINE>
+talking<LINE>
 about?<END>
 
 //POINTER #221 @ $145374 - STRING #221 @ $131AC0
@@ -1846,8 +1847,8 @@ GIRL:<LINE>
 <HERONAME>…………<NP>
 Why are you<LINE>
 with the<LINE>
-Mythical Silver<LINE>
-Beast?<END>
+Mythical<LINE>
+Silver Beast?<END>
 
 //POINTER #224 @ $145380 - STRING #224 @ $131B12
 
@@ -1855,14 +1856,14 @@ Beast?<END>
 <HERONAME>:<LINE>
 The Mythical<LINE>
 Silver Beast-<LINE>
-you mean…Liger<LINE>
-Zero.<END>
+you mean…<LINE>
+Liger Zero.<END>
 
 //POINTER #225 @ $145384 - STRING #225 @ $131B42
 
 #WRITE(MyPtr, $145384)
 GIRL:<LINE>
-No, it’s<LINE>
+No, it's<LINE>
 definitely<LINE>
 the Mythical<LINE>
 Beast.<END>
@@ -1884,15 +1885,15 @@ GIRL:<LINE>
 
 #WRITE(MyPtr, $145390)
 <HERONAME>:<LINE>
-Now she’s<LINE>
-gone completely<LINE>
+Now she's gone <LINE>
+completely<LINE>
 silent…<END>
 
 //POINTER #229 @ $145394 - STRING #229 @ $131B9A
 
 #WRITE(MyPtr, $145394)
 GIRL:<LINE>
-//……Hey, <HERONAME>.<END>
+……Hey, <HERONAME>.<END>
 
 //POINTER #230 @ $145398 - STRING #230 @ $131BA8
 
@@ -1907,7 +1908,7 @@ What is it?<END>
 GIRL:<LINE>
 Come with me<LINE>
 to Grandpa<LINE>
-Palty’s place.<END>
+Palty's place.<END>
 
 //POINTER #232 @ $1453A0 - STRING #232 @ $131BD6
 
@@ -1923,24 +1924,24 @@ PALTY:<LINE>
 I live with<LINE>
 Grandpa Palty<LINE>
 in a village<LINE>
-just up ahead.<LINE>
-It’s not far.<END>
+just up ahead.<NP>
+It's not far.<END>
 
 //POINTER #234 @ $1453A8 - STRING #234 @ $131C27
 
 #WRITE(MyPtr, $1453A8)
 <HERONAME>:<LINE>
 A village?<NP>
-There’s a<LINE>
-village down<LINE>
-here underground?<END>
+There's a<LINE>
+village here<LINE>
+underground?<END>
 
 //POINTER #235 @ $1453AC - STRING #235 @ $131C44
 
 #WRITE(MyPtr, $1453AC)
 PALTY:<LINE>
 Yup.<NP>
-Isn’t it<LINE>
+Isn't it<LINE>
 obvious?<END>
 
 //POINTER #236 @ $1453B0 - STRING #236 @ $131C58
@@ -1948,7 +1949,7 @@ obvious?<END>
 #WRITE(MyPtr, $1453B0)
 <HERONAME>:<LINE>
 Wow…<NP>
-Maybe they canMLINE>
+Maybe they can<LINE>
 tell me how<LINE>
 to get back<LINE>
 up to the<LINE>
@@ -1958,15 +1959,15 @@ surface.<END>
 
 #WRITE(MyPtr, $1453B4)
 <HERONAME>:<LINE>
-Sure, let’s go!<END>
+Sure, let's go!<END>
 
 //POINTER #238 @ $1453B8 - STRING #238 @ $131C91
 
 #WRITE(MyPtr, $1453B8)
 PALTY:<LINE>
 Thank you!<NP>
-Let’s go.<LINE>
-It’s to the<LINE>
+Let's go.<LINE>
+It's to the<LINE>
 west.<END>
 
 //POINTER #239 @ $1453BC - STRING #239 @ $131CB0
@@ -1979,7 +1980,7 @@ Eek!<END>
 
 #WRITE(MyPtr, $1453C0)
 <HERONAME>:<LINE>
-It’s Berserk<LINE>
+It's Berserk<LINE>
 Fuhrer!<NP>
 It came all<LINE>
 this way!<LINE>
@@ -2569,227 +2570,268 @@ PALTY:<LINE>
 
 #WRITE(MyPtr, $1454EC)
 PALTY:<LINE>
-//ここが パルティのむらよ<NP>
-//さっそく おじいちゃんに<LINE>
-//はなしてくるわね<END>
+This is my<LINE>
+village.<NP>
+I'll go talk<LINE>
+to Grandpa.<END>
 
 //POINTER #316 @ $1454F0 - STRING #316 @ $132795
 
 #WRITE(MyPtr, $1454F0)
 PALTY:<LINE>
-//おじいちゃーん！<END>
+Grandpa!<END>
 
 //POINTER #317 @ $1454F4 - STRING #317 @ $1327A4
 
 #WRITE(MyPtr, $1454F4)
-//？？？:<LINE>
-//なんじゃとぉーーーーっ！！？？<END>
+???:<LINE>
+What's this!?<NP>
+A Mythical<LINE>
+Silver Beast?!<END>
 
 //POINTER #318 @ $1454F8 - STRING #318 @ $1327B9
 
 #WRITE(MyPtr, $1454F8)
 PALTY:<LINE>
-//まってぇ おじいちゃーん<END>
+Wait, Grandpa!<END>
 
 //POINTER #319 @ $1454FC - STRING #319 @ $1327CC
 
 #WRITE(MyPtr, $1454FC)
-//ろうじん:<LINE>
-//どこじゃ！？<NP>
-//しろがねの じゅうきしんは<LINE>
-//どこにいる！？<END>
+OLD MAN:<LINE>
+Where is it?<NP>
+Where's that<LINE>
+Silver Beast?!<END>
 
 //POINTER #320 @ $145500 - STRING #320 @ $1327EF
 
 #WRITE(MyPtr, $145500)
 PALTY:<LINE>
-//そこにいる <HERONAME>が<LINE>
-//つれてきたの<LINE>
-//ちじょうから きたんだって<END>
+That's <HERONAME><LINE>
+over there.<LINE>
+He brought<LINE>
+it here from<LINE>
+the surface<LINE>
+world.<END>
 
 //POINTER #321 @ $145504 - STRING #321 @ $132813
 
 #WRITE(MyPtr, $145504)
-//ろうじん:<LINE>
-//なに ちじょうから？<END>
+OLD MAN:<LINE>
+What do you<LINE>
+mean, from<LINE>
+the surface<LINE>
+world?<END>
 
 //POINTER #322 @ $145508 - STRING #322 @ $132824
 
 #WRITE(MyPtr, $145508)
-//ろうじん:<LINE>
-//そこのしょうねんか？<LINE>
-//ちじょうからきたのじゃと？<END>
+OLD MAN:<LINE>
+This boy<LINE>
+right here?<NP>
+You came from<LINE>
+the surface<LINE>
+world?<END>
 
 //POINTER #323 @ $14550C - STRING #323 @ $132843
 
 #WRITE(MyPtr, $14550C)
 <HERONAME>:<LINE>
-//あ うん……じゃなくて はい<NP>
-//じじょうを はなすと<LINE>
-//ながくなるんだけど……<END>
+Ah, well… I<LINE>
+mean, yeah.<NP>
+I'll explain<LINE>
+everything,<LINE>
+but you may<LINE>
+want to take<LINE>
+a seat……<END>
 
 //POINTER #324 @ $145510 - STRING #324 @ $13286C
 
 #WRITE(MyPtr, $145510)
 <HERONAME>:<LINE>
-//……という わけなんだ<END>
+…So that's the<LINE>
+situation.<END>
 
 //POINTER #325 @ $145514 - STRING #325 @ $13287B
 
 #WRITE(MyPtr, $145514)
-//ろうじん:<LINE>
-//ふーむ その<LINE>
-//ライガーゼロというゾイドが<LINE>
-//じゅうきしんじゃと いうのか<END>
+OLD MAN:<LINE>
+Hmm… So this<LINE>
+Zoid called<LINE>
+Liger Zero<LINE>
+is the Silver<LINE>
+Beast you<LINE>
+speak of?<END>
 
 //POINTER #326 @ $145518 - STRING #326 @ $1328A5
 
 #WRITE(MyPtr, $145518)
 <HERONAME>:<LINE>
-//いや それは……<END>
+Well, not<LINE>
+exactly……<END>
 
 //POINTER #327 @ $14551C - STRING #327 @ $1328B1
 
 #WRITE(MyPtr, $14551C)
 PALTY:<LINE>
-//まちがいないわ<LINE>
-//ぜったいよ！<END>
+There's no<LINE>
+mistake! It's<LINE>
+definitely<LINE>
+the one!<END>
 
 //POINTER #328 @ $145520 - STRING #328 @ $1328C6
 
 #WRITE(MyPtr, $145520)
-//ろうじん:<LINE>
-//ふむむむ……<LINE>
-//しかしのう<NP>
-//ぎんのゾイドが ぜんぶ<LINE>
-//でんせつのじゅうきしんとは<LINE>
-//かぎらんでなあ<END>
+OLD MAN:<LINE>
+Hmm…… However,<LINE>
+it doesn't<LINE>
+mean this one's<LINE>
+the Mystical<LINE>
+Silver Beast.<END>
 
 //POINTER #329 @ $145524 - STRING #329 @ $1328FB
 
 #WRITE(MyPtr, $145524)
 PALTY:<LINE>
-//パルティのこと<LINE>
-//しんじてくれないの？<END>
+Don't you<LINE>
+believe me?<END>
 
 //POINTER #330 @ $145528 - STRING #330 @ $132914
 
 #WRITE(MyPtr, $145528)
-//ろうじん:<LINE>
-//いやいや そんなことはないぞ<LINE>
-//パルティ<END>
+OLD MAN:<LINE>
+No, no, that's<LINE>
+not it at<LINE>
+all, Palty.<END>
 
 //POINTER #331 @ $14552C - STRING #331 @ $13292E
 
 #WRITE(MyPtr, $14552C)
 PALTY:<LINE>
-//だったら……<END>
+Then……<END>
 
 //POINTER #332 @ $145530 - STRING #332 @ $13293B
 
 #WRITE(MyPtr, $145530)
 PALTY:<LINE>
-//きゃあっ<END>
+--(gasp)--<END>
 
 //POINTER #333 @ $145534 - STRING #333 @ $132946
 
 #WRITE(MyPtr, $145534)
-//むらびと:<LINE>
-//うわああっ たすけてえ！<END>
+VILLAGER:<LINE>
+Waaah! Someone help!<END>
 
 //POINTER #334 @ $145538 - STRING #334 @ $132959
 
 #WRITE(MyPtr, $145538)
-//むらびと:<LINE>
-//ぼうそうゾイドだぞおっ！<END>
+VILLAGER:<LINE>
+It's a rampaging<LINE>
+Zoid!<END>
 
 //POINTER #335 @ $14553C - STRING #335 @ $13296C
 
 #WRITE(MyPtr, $14553C)
-//むらびと:<LINE>
-//にげろーーーーっ！！<END>
+VILLAGER:<LINE>
+Run away---!!<END>
 
 //POINTER #336 @ $145540 - STRING #336 @ $13297D
 
 #WRITE(MyPtr, $145540)
 <HERONAME>:<LINE>
-//ぼうそうゾイドだって！？<END>
+A rampaging<LINE>
+Zoid!?<END>
 
 //POINTER #337 @ $145544 - STRING #337 @ $13298D
 
 #WRITE(MyPtr, $145544)
-//ろうじん:<LINE>
-//いかん！<NP>
-//あれは<LINE>
-//バーサークフューラーじゃ！<NP>
-//あんな きょうぼうなゾイドに<LINE>
-//おそわれては このむらは<LINE>
-//ひとたまりもないぞ！！<END>
+OLD MAN:<LINE>
+Oh no!<NP>
+That's the<LINE>
+Zoid, Berzerk<LINE>
+Fuhrer!<NP>
+If that was<LINE>
+to attack,<LINE>
+this village<LINE>
+won't stand<LINE>
+a chance!!<END>
 
 //POINTER #338 @ $145548 - STRING #338 @ $1329D2
 
 #WRITE(MyPtr, $145548)
 PALTY:<LINE>
-//ど どうしよう<LINE>
-//おじいちゃんっ<END>
+Grandpa, what<LINE>
+shall we do!?<END>
 
 //POINTER #339 @ $14554C - STRING #339 @ $1329E8
 
 #WRITE(MyPtr, $14554C)
 <HERONAME>:<LINE>
-//むらをおそうなんて<LINE>
-//そんなこと させないぜ！<END>
+There's no way<LINE>
+I'm letting<LINE>
+it attack<LINE>
+the village!<END>
 
 //POINTER #340 @ $145550 - STRING #340 @ $132A02
 
 #WRITE(MyPtr, $145550)
 <HERONAME>:<LINE>
-//ううっ<LINE>
-//なんて つよいやつなんだ！<END>
+Ugh!<NP>
+That thing is<LINE>
+so powerful!<END>
 
 //POINTER #341 @ $145554 - STRING #341 @ $132A17
 
 #WRITE(MyPtr, $145554)
 PALTY:<LINE>
-//かせいするわ <HERONAME>！<END>
+I'll help too,<LINE>
+<HERONAME>!<END>
 
 //POINTER #342 @ $145558 - STRING #342 @ $132A27
 
 #WRITE(MyPtr, $145558)
-//ろうじん:<LINE>
-//わしらのむらを<LINE>
-//すくってくれるしょうねんを<LINE>
-//ほおっては おけぬわい！<END>
+OLD MAN:<LINE>
+We can't just<LINE>
+leave this<LINE>
+young hero<LINE>
+to fend for<LINE>
+himself!<END>
 
 //POINTER #343 @ $14555C - STRING #343 @ $132A50
 
 #WRITE(MyPtr, $14555C)
 <HERONAME>:<LINE>
-//ふう どうやら<LINE>
-//やっつけたみたいだな<END>
+Phew… Looks<LINE>
+like we were<LINE>
+able to take<LINE>
+it down.<END>
 
 //POINTER #344 @ $145560 - STRING #344 @ $132A66
 
 #WRITE(MyPtr, $145560)
 PALTY:<LINE>
-//まさか<NP>
-//あいては<LINE>
-//バーサークフューラーよ<END>
+Hah, no way…<NP>
+We're talking<LINE>
+about Bezerk<LINE>
+Fuhrer!<END>
 
 //POINTER #345 @ $145564 - STRING #345 @ $132A81
 
 #WRITE(MyPtr, $145564)
-//ろうじん:<LINE>
-//パルティの いうとおりじゃ<NP>
-//おもわぬ はんげきにあって<LINE>
-//おどろいただけじゃろう<NP>
-//やつは また くるよ<END>
+OLD MAN:<LINE>
+Palty is<LINE>right.<NP>
+It was just<LINE>
+surprised by<LINE>
+an unexpected<LINE>
+counterattack.<NP>
+It'll come<LINE>
+back again.<END>
 
 //POINTER #346 @ $145568 - STRING #346 @ $132ABA
 
 #WRITE(MyPtr, $145568)
 <HERONAME>:<LINE>
-//く くそーっ<END>
+D-damn it!<END>
 
 //POINTER #347 @ $14556C - STRING #347 @ $132AC4
 
@@ -2812,19 +2854,20 @@ PALTY:<LINE>
 //POINTER #349 @ $145574 - STRING #349 @ $132B22
 
 #WRITE(MyPtr, $145574)
-//ろうじん:<LINE>
-//いいや まちがえてはいない<END>
+OLD MAN:<LINE>
+No, you're<LINE>
+not mistaken.<END>
 
 //POINTER #350 @ $145578 - STRING #350 @ $132B36
 
 #WRITE(MyPtr, $145578)
 <HERONAME>:<LINE>
-//えっ？<END>
+Eh?<END>
 
 //POINTER #351 @ $14557C - STRING #351 @ $132B3D
 
 #WRITE(MyPtr, $14557C)
-//ろうじん:<LINE>
+OLD MAN:<LINE>
 //あらためて なのろう<NP>
 //わしは このちをおさめる<LINE>
 //けんじゃ<NP>
