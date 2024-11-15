@@ -1998,47 +1998,56 @@ Did that work!?<END>
 
 #WRITE(MyPtr, $1453C8)
 PALTY:<LINE>
-//また たちあがった！？<NP>
-//<HERONAME> こわいっ<END>
+It got back<LINE>
+up again!?<NP>
+<HERONAME>, I'm<LINE>
+scared!<END>
 
 //POINTER #243 @ $1453CC - STRING #243 @ $131D14
 
 #WRITE(MyPtr, $1453CC)
 <HERONAME>:<LINE>
-//くっそーっ！<NP>
-//こうなったら<LINE>
-//ライガーゼロのぜんりょくで<LINE>
-//たおしてやる！<END>
+Damn it!<NP>
+I may need<LINE>
+to use Liger<LINE>
+Zero's full<LINE>
+power!<END>
 
 //POINTER #244 @ $1453D0 - STRING #244 @ $131D3B
 
 #WRITE(MyPtr, $1453D0)
 PALTY:<LINE>
-//で でも<NP>
-//こんなところで あばれたら<LINE>
-//ルーンむらの<LINE>
-//いえがこわれちゃう！<END>
+B-but……<NP>
+If we go<LINE>
+wild here,<LINE>
+we'll destroy<LINE>
+the houses in<LINE>
+Rune Village!<END>
 
 //POINTER #245 @ $1453D4 - STRING #245 @ $131D66
 
 #WRITE(MyPtr, $1453D4)
 <HERONAME>:<LINE>
-//ううっ ど どうすれば！？<END>
+Ugh, w-what<LINE>
+should I do!?<END>
 
 //POINTER #246 @ $1453D8 - STRING #246 @ $131D77
 
 #WRITE(MyPtr, $1453D8)
 SOLID:<LINE>
-//なにを<LINE>
-//ボーッとしているんだ！<LINE>
-//さっさと かたをつけないか！<END>
+What are you<LINE>
+standing<LINE>
+around for?!<LINE>
+Hurry up and<LINE>
+finish it off!<END>
 
 //POINTER #247 @ $1453DC - STRING #247 @ $131D9C
 
 #WRITE(MyPtr, $1453DC)
 <HERONAME>:<LINE>
-//ソ ソリッド！？<LINE>
-//どうして ここに……<END>
+S-Solid!?<LINE>
+Why are you<LINE>
+here…<END>
 
 //POINTER #248 @ $1453E0 - STRING #248 @ $131DB3
 
