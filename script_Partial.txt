@@ -12768,7 +12768,7 @@ SOLID:<LINE>
 //POINTER #1681 @ $146A44 - STRING #1681 @ $13CF92
 
 #WRITE(MyPtr, $146A44)
-//？？？:<LINE>
+//???:<LINE>
 //ニンゲンや ゾイドを……<LINE>
 //キズつけるツモリじゃ…… なかった……<END>
 
@@ -13399,17 +13399,19 @@ PALTY:<LINE>
 //POINTER #1767 @ $146B9C - STRING #1767 @ $13DC2E
 
 #WRITE(MyPtr, $146B9C)
-//ジャッジマン:<LINE>
-//チーム”マニアック”カモン！！<END>
+JUDGEMAN:<LINE>
+Team "Maniac", come on!!<END>
 
 //POINTER #1768 @ $146BA0 - STRING #1768 @ $13DC46
 
 #WRITE(MyPtr, $146BA0)
-//チーム”マニアック”:<LINE>
-//よう しょうねん！<LINE>
-//おまえが あいてか！<LINE>
-//おてなみ はいけんだ！！<LINE>
-//ぜんりょくで いかせてもらうぜ！<END>
+TEAM "MANIAC":<LINE>
+Hey, kid!<NP>
+So, you're my<LINE>
+opponent, huh?<LINE>
+Let's see what<LINE>
+you're made of!!<LINE>
+I won't hold back!<END>
 
 //POINTER #1769 @ $146BA4 - STRING #1769 @ $13DC85
 
@@ -13422,8 +13424,9 @@ PALTY:<LINE>
 //POINTER #1770 @ $146BA8 - STRING #1770 @ $13DCB4
 
 #WRITE(MyPtr, $146BA8)
-//しょうぶを つづけますか？<LINE>
-//  *はい   *いいえ<END>
+Do you want to continue<LINE>
+the match?<LINE>
+  *Yes  *No <END>
 
 //POINTER #1771 @ $146BAC - STRING #1771 @ $13DCCF
 
