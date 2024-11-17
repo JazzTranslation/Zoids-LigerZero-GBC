@@ -2814,9 +2814,9 @@ it off.<END>
 #WRITE(MyPtr, $145560)
 PALTY:<LINE>
 Hah, no way…<NP>
-That's Bezerk<LINE>
-Fuhrer we're<LINE>
-talking about!<END>
+That Bezerk<LINE>
+Fuhrer isn't<LINE>
+done yet!<END>
 
 //POINTER #345 @ $145564 - STRING #345 @ $132A81
 
@@ -2922,8 +2922,10 @@ Fuhrer!<END>
 
 #WRITE(MyPtr, $14558C)
 VILLAGE CHIEF:<LINE>
-No, this body…<NP>
-This divine<LINE>
+No, it's now<LINE>
+very obvious.<NP>
+That body…<NP>
+That divine<LINE>
 radiance…<NP>
 It truly is<LINE>
 the Mythical<LINE>
@@ -2940,9 +2942,9 @@ Whaaat!?<END>
 #WRITE(MyPtr, $145594)
 VILLAGE CHIEF:<LINE>
 You, the one<LINE>
-bonded with the<LINE>
-Mythical Silver<LINE>
-Beast…<LINE>
+bonded with<LINE>
+the Mythical<LINE>
+Silver Beast…<NP>
 I apologize<LINE>
 for being<LINE>
 rude earlier.<END>
@@ -2951,11 +2953,10 @@ rude earlier.<END>
 
 #WRITE(MyPtr, $145598)
 <HERONAME>:<LINE>
-Huh? N-no,<LINE>
+Huh? N-no, no<LINE>
 it's fine.<NP>
-There's no<LINE>
-need to<LINE>
-apologize…<END>
+There's no need<LINE>
+to apologize…<END>
 
 //POINTER #359 @ $14559C - STRING #359 @ $132C87
 
@@ -2974,7 +2975,7 @@ I'm sowwyyyy!<END>
 #WRITE(MyPtr, $1455A4)
 VILLAGE CHIEF:<LINE>
 Well, now that<LINE>
-the apology is<LINE>
+the apology's<LINE>
 done, let's<LINE>
 focus on the<LINE>
 main issue.<END>
@@ -2992,30 +2993,27 @@ apology?<END>
 #WRITE(MyPtr, $1455AC)
 VILLAGE CHIEF:<LINE>
 I wanted to<LINE>
-keep the mood<LINE>
-light, so I<LINE>
+lighten the<LINE>
+mood, so I<LINE>
 apologized in<LINE>
-a cheerful<LINE>
-way.<LINE>
-It softens<LINE>
-the atmosphere,<LINE>
-doesn't it?<END>
+a silly way.<NP>
+It worked,<LINE>
+didn't it?<END>
 
 //POINTER #364 @ $1455B0 - STRING #364 @ $132D10
 
 #WRITE(MyPtr, $1455B0)
 <HERONAME>:<LINE>
-R-really?<LINE>
-I guess so.<END>
+I guess.<END>
 
 //POINTER #365 @ $1455B4 - STRING #365 @ $132D1B
 
 #WRITE(MyPtr, $1455B4)
 VILLAGE CHIEF:<LINE>
-More impor-<LINE>
-tantly, I<LINE>
+Anyway, more<LINE>
+importantly, I<LINE>
 have a request<LINE>
-to ask.<END>
+to ask of you.<END>
 
 //POINTER #366 @ $1455B8 - STRING #366 @ $132D36
 
@@ -3026,31 +3024,40 @@ What is it?<END>
 //POINTER #367 @ $1455BC - STRING #367 @ $132D40
 
 #WRITE(MyPtr, $1455BC)
-//むらおさ:<LINE>
-//ここは わくせいZ<$F9><LINE>
-//ちていせかい<LINE>
-//あまりにも ふかいだんぜつに<LINE>
-//ちじょうとのこうりゅうも<LINE>
-//ない<LINE>
-//どくりつした せかい<LINE>
-//なのじゃ<END>
+VILLAGE CHIEF:<LINE>
+We're in the<LINE>
+underground<LINE>
+world, in<LINE>
+Planet Zi.<NP>
+We're entirely<LINE>
+disconnected<LINE>
+from the<LINE>
+surface.<LINE>
+We are in<LINE>
+isolation.<END>
 
 //POINTER #368 @ $1455C0 - STRING #368 @ $132D87
 
 #WRITE(MyPtr, $1455C0)
 <HERONAME>:<LINE>
-//すごい おおあなだったもん<LINE>
-//なあ<END>
+That was a big<LINE>
+hole, huh?<END>
 
 //POINTER #369 @ $1455C4 - STRING #369 @ $132D9B
 
 #WRITE(MyPtr, $1455C4)
-//むらおさ:<LINE>
-//それでも ここは<LINE>
-//しげんにめぐまれた とち<LINE>
-//みどりが おいしげり<LINE>
-//ひともゾイドも へいわに<LINE>
-//くらしておった<END>
+VILLAGE CHIEF:<LINE>
+Even so, this<LINE>
+land was<LINE>
+blessed with<LINE>
+abundant<LINE>
+resources.<LINE>
+Lush greenery<LINE>
+thrived, and<LINE>
+both people<LINE>
+and Zoids<LINE>
+lived here<LINE>
+peacefully.<END>
 
 //POINTER #370 @ $1455C8 - STRING #370 @ $132DD7
 
@@ -10764,7 +10771,7 @@ PALTY:<LINE>
 
 #WRITE(MyPtr, $1465C8)
 <HERONAME>:<LINE>
-//”Z<$F9>ーW245E67”<LINE>
+//”ZiーW245E67”<LINE>
 //っと<END>
 
 //POINTER #1395 @ $1465CC - STRING #1395 @ $13B042
@@ -10823,7 +10830,7 @@ PALTY:<LINE>
 
 #WRITE(MyPtr, $1465EC)
 <HERONAME>:<LINE>
-//”Z<$F9>ーW245E67”<LINE>
+//”ZiーW245E67”<LINE>
 //っと<END>
 
 //POINTER #1404 @ $1465F0 - STRING #1404 @ $13B0F8
@@ -10837,7 +10844,7 @@ PALTY:<LINE>
 
 #WRITE(MyPtr, $1465F4)
 //パスワードハ<LINE>
-//”Z<$F9>ーW245E67”<END>
+//”ZiーW245E67”<END>
 
 //POINTER #1406 @ $1465F8 - STRING #1406 @ $13B126
 
